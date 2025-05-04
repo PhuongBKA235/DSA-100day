@@ -1,0 +1,25 @@
+
+ng new frontend --routing --style=scss
+
+ng serve : khởi chạy sever ở local : Ctrl + C để tắt
+
+
+tạo file trên github: 
+git clone <url>
+ đẩy file lên:
+git add . // add tất cả các file
+git status // kiểm tra các file add
+git commit -m "feat(frontend): thêm project Angular cho Sciphy Web" // điền thông tin add
+git push origin main // đẩy lên nhánh main
+
+
+
+
+
+git checkout -b <name_brand> // tạo nhánh mới và chui vào nhánh đó // xóa nhánh git branch -d <tên-nhánh>
+
+
+git checkout <name> // quay về nhánh
+git branch  // xuất tất cả các nhánh tồn tại trên local
+git branch -a  // trên cả remote lẫn local
+git branch -r // chỉ trên remote
